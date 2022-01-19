@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg">
+    <nav id="navbar">
+      <header>JS Variables</header>
+      <a href="#Javascript_and_Java" class="nav-link">Javascript and Java</a>
+      <a href="#Hello_world" class="nav-link">Hello world</a>
+      <a href="#Variables" class="nav-link">Variables</a>
+      <a href="#Declaring_variables" class="nav-link">Declaring variables</a>
+      <a href="#Variable_scope" class="nav-link">Variable scope</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Javascript_and_Java">
+        <header>Javascript and Java</header>
+        <p>
+          JavaScript dan Java serupa dalam beberapa hal tetapi secara fundamental berbeda dalam beberapa hal lainnya. Bahasa JavaScript menyerupai Java tetapi tidak memiliki pengetikan statis dan tipe kuat Java
+          memeriksa. JavaScript mengikuti sebagian besar sintaks ekspresi Java, konvensi penamaan, dan konstruksi aliran kontrol dasar yang merupakan alasan mengapa namanya diubah dari LiveScript menjadi JavaScript.
+        </p>
+
+        <p>
+          Berbeda dengan sistem kelas waktu kompilasi Java yang dibangun oleh deklarasi, JavaScript mendukung sistem runtime berdasarkan sejumlah kecil tipe data yang mewakili numerik, Boolean, dan
+          nilai string. JavaScript memiliki model objek berbasis prototipe, bukan model objek berbasis kelas yang lebih umum. Model berbasis prototipe menyediakan pewarisan dinamis; yaitu, apa itu?
+          diwariskan dapat bervariasi untuk objek individu. JavaScript juga mendukung fungsi tanpa persyaratan deklaratif khusus. Fungsi dapat berupa properti objek, dieksekusi sebagai diketik secara longgar
+          metode.
+        </p>
+
+        <p>
+          JavaScript adalah bahasa bentuk yang sangat bebas dibandingkan dengan Java. Anda tidak harus mendeklarasikan semua variabel, kelas, dan metode. Anda tidak perlu khawatir dengan apakah metode bersifat publik,
+          pribadi, atau dilindungi, dan Anda tidak perlu mengimplementasikan antarmuka. Variabel, parameter, dan tipe pengembalian fungsi tidak diketik secara eksplisit.
+        </p>
+      </section>
+
+      <section class="main-section" id="Hello_world">
+        <header>Hello world</header>
+        <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+        <code>
+          <pre>
+function greetMe(yourName) { 
+  alert("Hello " + yourName); 
+} 
+greetMe("World");</pre
+          >
+        </code>
+        <p>
+          "HelloWorld.java" merupakan contoh program sederhana yang menghasilkan keluaran berupa tulisan "Hello, world" pada layar monitor. ... Proses program Java sederhananya terdiri dari tiga tahap: satu, Program dibuat dengan diketik pada text editor dan simpan file nya dengan nama file HelloWorld.java.
+        </p>
+      </section>
+
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <p>
+         Variabel adalah suatu tempat yang digunakan untuk menampung data atau konstanta di memori yang mempunyai nilai yang dapat berubah–ubah selama proses program
+        </p>
+        <p>Primitive data types:</p>
+        <ul>
+          <li>Boolean. benar dan salah.</li>
+          <li>batal. Kata kunci khusus yang menunjukkan nilai nol. Karena JavaScript peka huruf besar/kecil, null tidak sama dengan Null, NULL, atau varian lainnya.</li>
+          <li>tidak terdefinisi. Properti tingkat atas yang nilainya tidak ditentukan.</li>
+          <li> Nomor. 42 atau 3.14159.
+Rangkaian.</li>
+          <li>"Apa kabar"</li>
+          <li>Simbol (baru di ECMAScript 2015). Tipe data yang instansnya unik dan tidak dapat diubah.</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Declaring_variables">
+        <header>Declaring variables</header>
+        <p>With the keyword var. For example,</p>
+        <code>
+          <pre>var x = 42.</pre>
+        </code>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, eos vero aspernatur tenetur quos corporis sunt temporibus, fugiat nostrum dignissimos inventore illum alias dolorem</p>
+        <p>By simply assigning it a value. For example,</p>
+        <code>
+          <pre>x = 42.</pre>
+        </code>
+        <p>
+          sapiente numquam repellendus animi, maxime nesciunt recusandae quam eveniet nemo reiciendis aut odio. Minus labore eos rem voluptatibus atque accusantium, repudiandae perferendis provident
+          accusamus, corrupti culpa odio dolorem dicta, possimus ipsa pariatur tempora facere inventore quos quasi sunt. Non natus cupiditate quos ratione voluptates, dolorem dolores!
+        </p>
+        <p>With the keyword let. For example,</p>
+        <code>
+          <pre>let y = 13.</pre>
+        </code>
+      </section>
+
+      <section class="main-section" id="Variable_scope">
+        <header>Variable scope</header>
+        <p>
+          JavaScript sebelum ECMAScript 2015 tidak memiliki cakupan pernyataan blok; melainkan, variabel yang dideklarasikan di dalam blok adalah lokal untuk fungsi (atau lingkup global) tempat blok itu berada. Misalnya kode berikut akan mencatat 5, karena ruang lingkup x adalah fungsi (atau konteks global) di mana x dideklarasikan, bukan blok, yang dalam hal ini adalah pernyataan if. JavaScript sebelum ECMAScript 2015 tidak memiliki pernyataan blok cakupan; melainkan, variabel yang dideklarasikan di dalam blok adalah lokal untuk fungsi (atau lingkup global) tempat blok itu berada. Misalnya kode berikut akan mencatat 5, karena ruang lingkup x adalah fungsi (atau konteks global) di mana x dideklarasikan, bukan blok, yang dalam hal ini adalah pernyataan if.
+        </p>
+        <code>
+          <pre>if (true) { var x = 5; } console.log(x); // 5</pre>
+        </code>
+        <p>
+          Percabangan if merupakan percabangan yang hanya memiliki satu blok pilihan saat kondisi bernilai benar.
+        </p>
+      </section>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
